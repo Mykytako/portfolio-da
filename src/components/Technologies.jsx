@@ -1,4 +1,4 @@
-import { SiMysql, SiPython, SiTableau, SiPandas, SiAmazonaws } from "react-icons/si";
+import { SiMysql, SiPython, SiTableau, SiPandas, SiAmazonaws, SiPowerbi } from "react-icons/si";
 import { GrDocumentExcel } from "react-icons/gr";
 import { motion } from "framer-motion";
 
@@ -79,6 +79,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiPandas className="text-7xl text-purple-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPowerbi className="text-7xl text-yellow-600" />
         </motion.div>
       </motion.div>
     </div>
