@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Projects = () => {
   const imageStyle = {
     transition: "transform 0.3s ease-in-out, filter 0.3s ease-in-out",
-    filter: "brightness(70%)", // Initial brightness
+    filter: "brightness(80%)", // Initial brightness
   };
 
   const hoverStyle = {
