@@ -56,7 +56,7 @@ export const PROJECTS = [
   },
   {
     title: "Tableau Revenue and Sales Performance Analysis of Superstore",
-    description: "Evaluated revenue trends and margin patterns to pinpoint performance gaps and recommend strategies for growth and efficiency",
+    description: "Evaluated revenue trends and margin patterns to pinpoint performance gaps and recommended strategies for growth and efficiency",
     image: project3,
     link: "https://spiffy-roar-1b8.notion.site/Tableau-Revenue-and-Sales-Performance-analysis-of-Superstore-053124f8e49d400eac0595062294d852",
     technologies: ["Tableau", "Data Visualization", "Sales Analysis"],
