@@ -1,6 +1,5 @@
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { IoLogoTableau } from "react-icons/io5"; // Updated import for Tableau icon
 
 const Navbar = () => {
   return (
@@ -14,6 +13,9 @@ const Navbar = () => {
         </a>
         <a href="mailto:kondratiev.mikita@gmail.com">
           <FaEnvelope />
+        </a>
+        <a href="https://public.tableau.com/app/profile/mykyta.kondratiev/vizzes" target="_blank" rel="noopener noreferrer">
+          <IoLogoTableau />
         </a>
       </div>
     </nav>
